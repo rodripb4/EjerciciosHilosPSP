@@ -8,7 +8,8 @@ import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Actividad2_3 extends Applet implements ActionListener {
+
+public class Actividad5 extends Applet implements ActionListener {
 
 	class HiloContador extends Thread{
 		long CONTADOR;
@@ -102,7 +103,5 @@ public class Actividad2_3 extends Applet implements ActionListener {
 			h1=null;
 			h2=null;
 		}
-	}
-	
-	
 
+}
