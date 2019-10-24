@@ -50,7 +50,11 @@ public class Reloj extends Applet implements Runnable {
 	public void paint(Graphics g) {
 		
 		g.clearRect(1, 1, getSize().width, getSize().height);
-		
+		g.drawString(horaActual, 20, 50);
 	}
 
+	public void stop() {
+		hilo=null;
+	}
+	
 }
